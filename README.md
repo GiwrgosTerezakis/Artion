@@ -14,13 +14,19 @@ Installation guide:
     
     Terminal
 --  ( use sudo if needed) docker exec -it artion_web bash
+
 --  cd app
+
 --  php composer install
+
 --  php artisan migrate:fresh
+
 --  php artisan db:seed
+
 --  exit
 
 --  Edit /etc/hosts file
+
 --  addLine-> 127.0.0.1 local.artion.com
 
 
