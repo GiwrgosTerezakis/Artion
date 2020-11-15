@@ -25,8 +25,12 @@ Installation guide:
 
 
 --  Ready to go
+
 --  Visit local.artion.com on your browser
+
 --  Admin Credentials: Admin_Artion@gmail.com - Admin_Artion
+
 --  User1 Credentials: User1_Artion@gmail.com - User1_Artion
+
 --  User2 Credentials: User2_Artion@gmail.com - User2_Artion
 
