@@ -21,9 +21,9 @@ Installation guide:
 --  exit
 
 --  Edit /etc/hosts file
---  addLine-> 127.0.0.1 local.artian.com
+--  addLine-> 127.0.0.1 local.artion.com
 
 
 --  Ready to go
---  Visit local.artian.com on your browser
+--  Visit local.artion.com on your browser
 
