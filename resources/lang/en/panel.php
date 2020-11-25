@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Artion Test',
+    'site_title' => "Doctor's Appointment",
 ];

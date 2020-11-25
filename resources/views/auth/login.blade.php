@@ -3,7 +3,7 @@
 
 
 
-    <a id="ToTheApi" href="http://local.artion.com/getapidata">
+    <a id="ToTheApi" href="http://local.doctor_appointment.com/getapidata">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-skip-forward-fill" fill="black" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M15.5 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
             <path d="M7.596 8.697l-6.363 3.692C.693 12.702 0 12.322 0 11.692V4.308c0-.63.693-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
@@ -35,7 +35,7 @@
                             </span>
                             </div>
 
-                            <input id="email" name="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autocomplete="email" autofocus placeholder="{{ __('Admin||User(1||2)_Artion@gmail.com') }}" value="{{ old('email', null) }}">
+                            <input id="email" name="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autocomplete="email" autofocus placeholder="{{ __('') }}" value="{{ old('email', null) }}">
 
                             @if($errors->has('email'))
                                 <div class="invalid-feedback">
@@ -49,7 +49,7 @@
                                 <span class="input-group-text"><i class="fa fa-lock"></i></span>
                             </div>
 
-                            <input id="password" name="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" required placeholder="{{ __('Artion||User(1||2)_Artion') }}">
+                            <input id="password" name="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" required placeholder="{{ __('') }}">
 
                             @if($errors->has('password'))
                                 <div class="invalid-feedback">

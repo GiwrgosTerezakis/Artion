@@ -83,7 +83,7 @@
             @endif
             @yield('content')
             <div id="Signature">
-                &copy;designed by Artion
+                &copy;designed by George Terezakis
             </div>
         </div>
 

@@ -20,22 +20,22 @@ public function run()
 
     $user = User::create([
         'name' => "User1",
-        'email' => "User1_Artion@gmail.com ",
-        'password' => bcrypt('User1_Artion'),
+        'email' => "User1_Dap@gmail.com ",
+        'password' => bcrypt('User1_Dap'),
     ]);
     $user->attachRole('user');
 
     $user = User::create([
         'name' => "User2",
-        'email' => "User2_Artion@gmail.com ",
-        'password' => bcrypt('User2_Artion'),
+        'email' => "User2_Dap@gmail.com ",
+        'password' => bcrypt('User2_Dap'),
     ]);
     $user->attachRole('user');
 
     $user = User::create([
         'name' => "Admin",
-        'email' => "Admin_Artion@gmail.com ",
-        'password' => bcrypt('Admin_Artion'),
+        'email' => "Admin_Dap@gmail.com ",
+        'password' => bcrypt('Admin_Dap'),
     ]);
     $user->attachRole('administrator');
 
